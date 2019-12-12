@@ -136,6 +136,12 @@ class __TwigTemplate_b444b3e104f154ae20035f0aa48b76afc2cde8a6b2a928c5222bee95bf2
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("episodes_index");
         echo "\">Liste de tous les épisodes</a>
                 </li>
+                <li>
+                    <a class=\"dropdown-item\" href=\"/actor\">Tous nos acteurs</a>
+                </li>
+                <li>
+                    <a class=\"dropdown-item\" href=\"/actor/new\">Nouvel(le) actreur(rice)</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -213,10 +219,16 @@ class __TwigTemplate_b444b3e104f154ae20035f0aa48b76afc2cde8a6b2a928c5222bee95bf2
                 <li>
                     <a class=\"dropdown-item\" href=\"{{ path('episodes_index') }}\">Liste de tous les épisodes</a>
                 </li>
+                <li>
+                    <a class=\"dropdown-item\" href=\"/actor\">Tous nos acteurs</a>
+                </li>
+                <li>
+                    <a class=\"dropdown-item\" href=\"/actor/new\">Nouvel(le) actreur(rice)</a>
+                </li>
             </ul>
         </div>
     </nav>
 {% endblock %}
-", "/wild/navbar.html.twig", "/home/salazhar/Documents/Symfony/Wild Série/templates/wild/navbar.html.twig");
+", "/wild/navbar.html.twig", "/home/salazhar/Documents/Symfony/Symfonyquest-12/templates/wild/navbar.html.twig");
     }
 }
